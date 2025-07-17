@@ -1,0 +1,8 @@
+2025-07-15 16:23:16 [INFO] Starting scheduled backup process
+2025-07-15 16:23:16 [INFO] Backup type: complete, Retention: 30 days
+2025-07-15 16:23:16 [INFO] Executing pg_dump with args: -h localhost -p 5432 -U postgres -d ecommerce_db -f D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-15_16-23-16.sql --verbose --clean --if-exists --create --no-owner --no-privileges
+2025-07-15 16:23:16 [INFO] Backup format: Compatible with web interface restore functionality
+2025-07-15 16:23:19 [SUCCESS] Backup completed successfully
+2025-07-15 16:23:19 [INFO] File: D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-15_16-23-16.sql
+2025-07-15 16:23:19 [INFO] Size: 15.98 MB
+2025-07-15 16:23:19 [ERROR] Backup failed with exception: Method invocation failed because [System.Management.Automation.PSObject] does not contain a method named 'op_Addition'.
